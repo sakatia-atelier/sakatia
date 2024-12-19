@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAKATIA - Artisanat Malgache</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #F6F2DE;
+            color: #113A4B;
+        }
+        header {
+            background-color: #8C74A7;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #ECDCFE;
+            padding: 10px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #113A4B;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #D66738;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .product-card {
+            background: #FFFFFF;
+            border: 1px solid #ECDCFE;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+        }
+        .product-card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #8C74A7;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SAKATIA - Artisanat Malgache</h1>
+        <p>Découvrez l'élégance tropicale et florale, inspirée des orchidées de Madagascar.</p>
+    </header>
+    <nav>
+        <a href="#sacs">Sacs en Raphia</a>
+        <a href="#boucles">Boucles d'oreilles</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="sacs">
+        <h2>Sacs en Raphia</h2>
+        <div class="product-grid">
+            <!-- VAHINALA -->
+            <div class="product-card">
+                <img src="vahinala.jpg" alt="Sac VAHINALA">
+                <h3>VAHINALA</h3>
+                <p>Disponible en 4 couleurs</p>
+            </div>
+
+            <!-- ERIA -->
+            <div class="product-card">
+                <img src="eria.jpg" alt="Sac ERIA">
+                <h3>ERIA</h3>
+                <p>Disponible en 5 couleurs</p>
+            </div>
+
+            <!-- ERIA BICOLORE -->
+            <div class="product-card">
+                <img src="eria_bicolore.jpg" alt="Sac ERIA BICOLORE">
+                <h3>ERIA BICOLORE</h3>
+                <p>Disponible en 3 couleurs</p>
+            </div>
+
+            <!-- KANTO -->
+            <div class="product-card">
+                <img src="kanto.jpg" alt="Sac KANTO">
+                <h3>KANTO</h3>
+                <p>Disponible en 4 couleurs</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="boucles">
+        <h2>Boucles d'oreilles</h2>
+        <p>Nos boucles en raphia sont ornées d'éléments naturels comme des perles, de la corne de zébu et des pierres semi-précieuses.</p>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="boucles1.jpg" alt="Boucles d'oreilles">
+                <h3>Boucles en Raphia</h3>
+            </div>
+            <div class="product-card">
+                <img src="boucles2.jpg" alt="Boucles d'oreilles">
+                <h3>Boucles avec Perles</h3>
+            </div>
+            <div class="product-card">
+                <img src="boucles3.jpg" alt="Boucles d'oreilles">
+                <h3>Boucles avec Corne de Zébu</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SAKATIA. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
